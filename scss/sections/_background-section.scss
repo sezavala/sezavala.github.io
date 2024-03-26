@@ -1,0 +1,16 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.background-section{
+    position: relative;
+    @include gradient;
+}
+.icon-box{
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 35px;
+}

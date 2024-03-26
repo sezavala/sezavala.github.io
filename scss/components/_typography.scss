@@ -1,0 +1,75 @@
+@use '../custom' as *;
+.display-2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+
+    &--intro{
+        display: inline-block;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+    &--description{
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+    }
+}
+
+.heading-line::before{
+    content:"";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+}
+
+.heading-line::after{
+    content:"";
+    width: 2rem;
+    height: 0.2rem;
+    padding-top: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+    background-color: $primary;
+}
+
+.display-3{
+    font-family: "Poppins", sans-serif;
+}
+
+.list-unstyled-border {
+    list-style-type: none;
+    padding-left: 0;
+  
+    li {
+      border-bottom: 1px solid #ccc; // Change this to adjust line color
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+
+  }
+
+  .display-4{
+    font-size: large;
+    line-height: 1.8;
+    font-weight:100;
+  }
+
+  .language{
+    font-weight: bold;
+    text-align: left;
+  }
+  .display-5{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  .display-6{
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.6;
+  }
