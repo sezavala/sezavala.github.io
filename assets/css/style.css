@@ -11931,12 +11931,27 @@ textarea.form-control-lg {
   border-radius: 50%;
   background-color: white;
   margin-left: 35px;
+  margin: auto;
+}
+
+.icon-box2 {
+  height: 70px;
+  width: 70px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 80%;
+  background-color: black;
+  margin: auto;
 }
 
 .intro-section {
   background: linear-gradient(to right, rgba(75, 228, 255, 0.95), rgba(6, 17, 139, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
+  height: 100%;
+}
+
+html {
   height: 100%;
 }
 
@@ -11999,6 +12014,11 @@ textarea.form-control-lg {
   visibility: visible;
   transition-duration: 0.5s;
   transition-property: all;
+}
+
+.contact-section {
+  position: relative;
+  background: linear-gradient(to right, rgba(75, 228, 255, 0.95), rgba(6, 17, 139, 0.95));
 }
 
 /*# sourceMappingURL=style.css.map */
